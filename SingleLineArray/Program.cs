@@ -10,6 +10,12 @@ namespace SingleLineArray
 
             // TODO: Loop through the array using foreach and print out each value on its own line.
 
+            int[] values = new int[] { 1, 1, 2, 3, 5, 8 };
+
+            foreach (int value in values)
+            {
+                Console.WriteLine(value);
+            }
             Console.ReadLine();
         }
     }
